@@ -1,5 +1,3 @@
-// src/components/Navbar.js
-
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -13,26 +11,39 @@ const Navbar = () => {
     <nav className="bg-white shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-bold">
-            <a href="#">Mon Portfolio</a>
+          <div className="text-green-700 text-2xl font-Montserrat font-bold">
+            <a href="#">Feryal DOUBALI</a>
           </div>
+
           <div className="hidden md:flex space-x-6">
-            <a href="#about" className="text-blue-600 hover:text-gray-950">
+            <a
+              href="#about"
+              className="text-green-700 hover:text-gray-950 font-Montserrat"
+            >
               About
             </a>
-            <a href="#projects" className="text-blue-600 hover:text-gray-900">
+            <a
+              href="#projects"
+              className="text-green-700 hover:text-gray-900 font-Montserrat"
+            >
               Projects
             </a>
-            <a href="#educations" className="text-blue-600 hover:text-gray-900">
+            <a
+              href="#educations"
+              className="text-green-700 hover:text-gray-900 font-Montserrat"
+            >
               Educations
             </a>
             <a
-              href="#certifications"
-              className="text-blue-600 hover:text-gray-900"
+              href="#skills"
+              className="text-green-700 hover:text-gray-900 font-Montserrat"
             >
-              Certifications
+              Skills
             </a>
-            <a href="#contact" className="text-blue-600 hover:text-gray-900">
+            <a
+              href="#contact"
+              className="text-green-700 hover:text-gray-900 font-Montserrat"
+            >
               Contact
             </a>
           </div>

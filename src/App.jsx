@@ -5,9 +5,9 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Educations from "./components/Educations";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
-// Importez vos autres composants (Projects, Education, Certifications, Contact) ici
 
 function App() {
   return (
@@ -23,7 +23,12 @@ function App() {
         <section id="educations">
           <Educations />
         </section>
-        {/* Ajoutez les autres sections ici */}
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>

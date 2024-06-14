@@ -1,47 +1,28 @@
-// src/components/About.js
-
 import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-gray-200 py-12" id="about">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center">
+    <section className="bg-gray-50 py-12" id="about">
+      <div className="container mx-auto px-4 lg:px-40">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
           <img
-            src="src/assets/image/portrait.jpg"
-            alt="Feryal Doubali "
-            className="w-40 h-32 rounded-full mb-4"
+            src="src/assets/portrait.jpg"
+            alt="Feryal Doubali"
+            className="w-34 h-28 rounded-full mb-2 lg:mb-0 lg:block"
           />
-          <h2 className="text-2xl font-bold mb-2">About Me...</h2>
-          <div className=" text-justify text-lg mb-2">
-            <p className="mb-2">
-              My name is Feryal, and I am from Rennes, Brittany and I live in
-              Paris. I am a recently graduated web developer with 20 years of
-              rich experience in the security field. Throughout my previous
-              career, I held various positions that allowed me to develop key
-              skills such as organization, availability, and the ability to work
-              effectively in a team and under pressure. This versatility and
-              rigor, acquired over the years, are assets that I now bring to the
-              world of web development.
-            </p>
-            <p className="mb-2">
-              My transition to web development was motivated by a desire to take
-              on new challenges and continue evolving professionally. During my
-              training at Ironhack, I quickly confirmed that this path was the
-              right fit for me. I was able to reveal my potential and acquire
-              the technical skills necessary to succeed in this field. My
-              ability to adapt and learn quickly, combined with my experience in
-              security, offers me a unique perspective to tackle problems and
-              develop secure and efficient solutions.
-            </p>
-            <p>
-              I am currently seeking new opportunities where I can contribute as
-              a web developer. Whether working alone or in a team, I am ready to
-              leverage my experience, skills, and motivation to develop
-              innovative and secure projects. I am confident that my unique
-              perspective will be a valuable asset to any company looking to
-              strengthen its web development team.
-            </p>
+          <div className="text-center lg:text-center">
+            <h2 className="text-2xl font-Montserrat mb-4">Hi 👋 I'm Feryal,</h2>
+            <div className="text-justify text-lg mb-8 font-sans">
+              <p className="mb-6">
+                After solidifying my expertise in security, I sought to broaden
+                my professional horizons into web development. I subsequently
+                completed an intensive bootcamp, emerging certified in
+                full-stack development from Ironhack Paris. With a strong
+                background in team management, communication, and
+                problem-solving, I am determined to leverage these skills in
+                innovative web projects.
+              </p>
+            </div>
           </div>
         </div>
       </div>
