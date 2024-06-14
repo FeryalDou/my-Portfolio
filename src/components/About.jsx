@@ -8,21 +8,21 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center">
           <img
-            src="./assets/image/portrait.jpg"
-            alt="Feryal Doubali"
-            className="w-32 h-32 rounded-full mb-4"
+            src="src/assets/image/portrait.jpg"
+            alt="Feryal Doubali "
+            className="w-40 h-32 rounded-full mb-4"
           />
           <h2 className="text-2xl font-bold mb-2">About Me...</h2>
-          <div className=" text-center text-lg mb-2">
+          <div className=" text-justify text-lg mb-2">
             <p className="mb-2">
-              My name is Feryal, and I am from Rennes, Brittany. I am a recently
-              graduated web developer with 20 years of rich experience in the
-              security field. Throughout my previous career, I held various
-              positions that allowed me to develop key skills such as
-              organization, availability, and the ability to work effectively in
-              a team and under pressure. This versatility and rigor, acquired
-              over the years, are assets that I now bring to the world of web
-              development.
+              My name is Feryal, and I am from Rennes, Brittany and I live in
+              Paris. I am a recently graduated web developer with 20 years of
+              rich experience in the security field. Throughout my previous
+              career, I held various positions that allowed me to develop key
+              skills such as organization, availability, and the ability to work
+              effectively in a team and under pressure. This versatility and
+              rigor, acquired over the years, are assets that I now bring to the
+              world of web development.
             </p>
             <p className="mb-2">
               My transition to web development was motivated by a desire to take

@@ -17,22 +17,22 @@ const Navbar = () => {
             <a href="#">Mon Portfolio</a>
           </div>
           <div className="hidden md:flex space-x-6">
-            <a href="#about" className="text-gray-600 hover:text-gray-900">
+            <a href="#about" className="text-blue-600 hover:text-gray-950">
               About
             </a>
-            <a href="#projects" className="text-gray-600 hover:text-gray-900">
+            <a href="#projects" className="text-blue-600 hover:text-gray-900">
               Projects
             </a>
-            <a href="#education" className="text-gray-600 hover:text-gray-900">
-              Education
+            <a href="#educations" className="text-blue-600 hover:text-gray-900">
+              Educations
             </a>
             <a
               href="#certifications"
-              className="text-gray-600 hover:text-gray-900"
+              className="text-blue-600 hover:text-gray-900"
             >
               Certifications
             </a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900">
+            <a href="#contact" className="text-blue-600 hover:text-gray-900">
               Contact
             </a>
           </div>
