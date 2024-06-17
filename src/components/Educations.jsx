@@ -7,7 +7,7 @@ const education = [
     year: "In progress",
   },
   {
-    degree: "Bootcamp in Web Development (RNCP 6)",
+    degree: "Bootcamp in Web Development(RNCP 6)",
     institution: "IronHack",
     year: "02/2024 - 04/2024",
   },
@@ -34,13 +34,13 @@ const Education = () => {
           {education.map((edu, index) => (
             <div
               key={index}
-              className="bg-white p-4 rounded-lg shadow-md hover:bg-gray-200 transition duration-300 ease-in-out"
+              className="bg-white p-6 rounded-full shadow-md hover:bg-yellow-50 transition duration-300 ease-in-out"
             >
-              <h3 className="text-xl font-Montserrat font-bold mb-2">
+              <h3 className="text-xl font-Montserrat text-center font-bold mb-2">
                 {edu.institution}
               </h3>
-              <p className="text-green-800 mb-2">{edu.degree}</p>
-              <p className="text-green-900">{edu.year}</p>
+              <p className="text-green-800 mb-2 text-center">{edu.degree}</p>
+              <p className="text-green-900 text-center">{edu.year}</p>
             </div>
           ))}
         </div>
