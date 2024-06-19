@@ -5,7 +5,7 @@ const projects = [
     title: "MEMORY DBZ",
     description:
       "Memory DBZ is a web-based memory game inspired by Dragon Ball Z characters and themes. It challenges players to match pairs of cards featuring iconic DBZ images. Built with HTML, CSS, and JavaScript, this game offers a nostalgic experience for fans while testing memory skills.",
-    imageUrl: "/images/project1.jpg",
+    imageUrl: "src/assets/project1.png",
     projectUrl: "https://github.com/FeryalDou/Memory-dbz",
   },
 
@@ -13,21 +13,21 @@ const projects = [
     title: "TO-DO-LIST",
     description:
       "The To-Do List is a simple and efficient web application that allows users to manage their daily tasks. Developed with React, CSS, and JavaScript, this application highlights essential features for optimal task management. This project was built through pair programming, demonstrating strong collaboration and teamwork skills.",
-    imageUrl: "/images/project2.jpg",
+    imageUrl: "src/assets/project2.png",
     projectUrl: "https://github.com/FeryalDou/to-do-app",
   },
   {
     title: "MEGALITH",
     description:
       "The Megaliths in France project is a web application designed to catalog and display megalithic sites across France. Using maps created with Leaflet, CSS, JavaScript, and various React libraries, this project provides an interactive way to explore these historical sites. The development of this project was done through pair programming, showcasing strong collaboration and teamwork skills.",
-    imageUrl: "/images/project2.jpg",
+    imageUrl: "src/assets/project3.png",
     projectUrl: "https://github.com/FeryalDou/Megalith-",
   },
   {
     title: "PRIME PROJECT",
     description:
       "The Project Manager is a comprehensive web application developed as my final project at Ironhack. This application, built with React, Tailwind CSS, and JavaScript, functions similarly to a to-do list but includes additional features to enhance project management. Various React libraries were utilized to enrich the functionality and user experience. ",
-    imageUrl: "/images/project2.jpg",
+    imageUrl: "src/assets/project4.png",
     projectUrl: "https://github.com/FeryalDou/Project-manager-frontend",
   },
 ];
